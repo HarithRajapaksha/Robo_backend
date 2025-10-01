@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Configuration - Replace with actual IPs (discover via router or hardcode)
 const ESP_CAR_IP = '192.168.4.1';  // Main ESP32 car control (AP mode)
-const ESP_CAM_IP = '192.168.1.100';  // ESP32-CAM IP (after connecting to home WiFi; check serial)
+const ESP_CAM_IP = 'http://192.168.225.143/stream';  // ESP32-CAM IP (after connecting to home WiFi; check serial)
 
 // Middleware
 app.use(cors({
